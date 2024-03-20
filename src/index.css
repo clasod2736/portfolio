@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3b3b3b;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1f2023;
+    color: #dadada;
+  }
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  max-width: 90rem;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-block: 3rem;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 20%;
+  width: 100%;
+
+  padding-inline: 2rem;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+
+  height: 15%;
+  width: 100%;
+
+  gap: 1rem;
+
+  padding-inline: 2rem;
+}
+
+span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  height: auto;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+h6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 2rem;
+
+  margin-left: 0.5rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
