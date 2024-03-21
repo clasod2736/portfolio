@@ -1,19 +1,31 @@
 import Initial from "../../components/home/Initial";
 
+//type effect to article section
+
 export default function Home() {
   return (
-    <section className="h-[50%]">
+    <section className="h-[70%] flex flex-col justify-center">
       <Initial />
-      <a
-        href="#"
-        className="h-[35%] w-full relative px-6 py-3 font-bold text-white rounded-lg group animate-slideUp animation-delay-800"
-      >
-        <span className="absolute inset-0 w-[30rem] h-full transition duration-300 transform -translate-x-1 -translate-y-1 bg-slate-500 ease opacity-80 group-hover:translate-x-0 group-hover:translate-y-0"></span>
-        <span className="absolute inset-0 w-[30rem] h-full transition duration-300 transform translate-x-1 translate-y-1 bg-slate-800 ease opacity-80 group-hover:translate-x-0 group-hover:translate-y-0 mix-blend-screen"></span>
-        <span className="relative w-full">
-          <p className="text-5xl ml-8 italic">Expolre</p>
-        </span>
-      </a>
+      <article className="h-[15%] text-3xl italic ">
+        <p className="text-2xl animate-slideUp animation-delay-200">
+          I'm a self-starter who passionate for simplifying complex task into a
+          lean solution.
+        </p>
+        <p className="text-2xl animate-slideUp animation-delay-400">
+          Make web applications with{" "}
+          <a
+            href="/about"
+            className="hover:dark:text-zinc-50 hover:text-zinc-400 "
+          >
+            <b className="font-semibold">
+              React.js, Typescript, Next.js, Node.js, Jest, AWS
+            </b>
+          </a>
+        </p>
+        <p className="text-2xl animate-slideUp animation-delay-600">
+          Please, explore more about me with below sections.
+        </p>
+      </article>
     </section>
   );
 }

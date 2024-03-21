@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
-export default function Contact() {
+export default function ContactLink() {
   const [anime, setAnime] = useState(false);
 
   const location = useLocation();

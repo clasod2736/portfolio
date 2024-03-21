@@ -5,10 +5,10 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { BlurProvider } from "./context/BlurProvider";
 
 // Components
-import Contact from "./components/navBar/links/Contact";
-import About from "./components/navBar/links/About";
-import Experience from "./components/navBar/links/Experience";
-import Projects from "./components/navBar/links/Projects";
+import About from "./Pages/about";
+import Experience from "./Pages/experience";
+import Projects from "./Pages/projects";
+import Contact from "./Pages/contact";
 
 const router = createBrowserRouter([
   {

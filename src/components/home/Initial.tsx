@@ -39,7 +39,7 @@ export default function Initial() {
     >
       <Trail open={open}>
         <h1 className={styles.h1}>
-          G'day! I'm <i className=" text-zinc-500">Joon Park</i>
+          G'day! I'm <i className=" text-zinc-500">Joon Park.</i>
         </h1>
         <h2 className={styles.h2}>Front-End Developer</h2>
         <h3 className={styles.h3}>Melbourne, Australia</h3>

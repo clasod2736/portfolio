@@ -1,15 +1,15 @@
-import About from "./links/About";
-import Experience from "./links/Experience";
-import Projects from "./links/Projects";
-import Contact from "./links/Contact";
+import AboutLink from "./links/AboutLink";
+import ExperienceLink from "./links/ExperienceLink";
+import ProjectsLink from "./links/ProjectsLink";
+import ContactLink from "./links/ContactLink";
 
 export default function Navbar() {
   return (
     <nav>
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
+      <AboutLink />
+      <ExperienceLink />
+      <ProjectsLink />
+      <ContactLink />
     </nav>
   );
 }
