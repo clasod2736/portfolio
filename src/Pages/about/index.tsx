@@ -8,7 +8,7 @@ export default function About() {
           Background
         </h4>
         <p className="px-8 text-xl leading-8 w-[80%] flex-wrap animate-[slideUp_0.3s]">
-          Hi! I'm <b>Joon</b>, based in Melbourne, and have been self-studying
+          Hi! I'm <b>Joon</b>, based in Melbourne and have been self-studying
           Web Development since early 2023. <br /> <br />
           As a web developer, I enjoy — combining my technical knowledge with my
           keen eye for details to create a solid functioning Website. <br />

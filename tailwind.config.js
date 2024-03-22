@@ -26,11 +26,16 @@ export default {
           "0%": { transform: "translateX(10%)", opacity: "0" },
           "100%": { transform: "translateX(0%)", opacity: "1" },
         },
+        opacity: {
+          from: { opacity: "0" },
+          to: { opacity: "1" },
+        },
       },
       animation: {
         slideUp: "slideUp 0.5s backwards",
         slideToRight: "slideToRight 0.3s backwards",
         slideToLeft: "slideToLeft 0.3s backwards",
+        opacity: "opacity 0.3s backwards",
       },
     },
   },

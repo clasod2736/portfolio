@@ -8,7 +8,6 @@ export default function ProjectsLink() {
 
   useEffect(() => {
     location.pathname === "/" ? setAnime(true) : setAnime(false);
-    console.log(location.pathname.length);
   }, [location.pathname]);
   return (
     <a

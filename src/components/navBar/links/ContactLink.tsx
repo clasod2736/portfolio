@@ -8,7 +8,6 @@ export default function ContactLink() {
 
   useEffect(() => {
     location.pathname === "/" ? setAnime(true) : setAnime(false);
-    console.log(location.pathname);
   }, [location.pathname]);
   return (
     <a

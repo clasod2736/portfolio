@@ -13,7 +13,6 @@ export default function Header() {
 
   useEffect(() => {
     location.pathname === "/" ? setAnime(true) : setAnime(false);
-    console.log(location.pathname);
   }, [location.pathname]);
 
   return (

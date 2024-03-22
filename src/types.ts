@@ -16,3 +16,8 @@ export type BlurValue = {
   blur: boolean;
   handleBlur: () => void;
 };
+
+// Type for experience
+export type Ex = {
+  ex: string;
+};

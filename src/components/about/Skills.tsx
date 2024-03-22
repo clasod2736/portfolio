@@ -22,6 +22,7 @@ import { SiNetlify } from "react-icons/si";
 import { GrHeroku } from "react-icons/gr";
 import { FaAws } from "react-icons/fa";
 import { SiJest } from "react-icons/si";
+import { SiGithubactions } from "react-icons/si";
 
 // need to make constant file and use map methods for making lists.
 
@@ -33,7 +34,7 @@ export default function Skills() {
   return (
     <article className={styles.container}>
       <div
-        className={`${styles.title} animate-slideToRight animation-delay-200`}
+        className={`${styles.title} animate-slideToRight animation-delay-400`}
       >
         <h4 className={styles.h4}>Technics</h4>
         <button
@@ -75,6 +76,7 @@ export default function Skills() {
         <GrHeroku />
         <FaAws />
         <SiJest />
+        <SiGithubactions />
       </div>
       <div
         className={`${styles.letters} ${
@@ -100,6 +102,7 @@ export default function Skills() {
         <span>Heroku</span>
         <span>AWS</span>
         <span>Jest</span>
+        <span>Github Actions</span>
       </div>
     </article>
   );

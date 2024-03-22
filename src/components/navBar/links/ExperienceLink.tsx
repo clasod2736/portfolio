@@ -8,7 +8,6 @@ export default function ExperienceLink() {
 
   useEffect(() => {
     location.pathname === "/" ? setAnime(true) : setAnime(false);
-    console.log(location.pathname.length);
   }, [location.pathname]);
 
   return (
@@ -24,8 +23,8 @@ export default function ExperienceLink() {
           →
         </h6>
       </span>
-      <p>asjdfjnaskfkasjfn ass</p>
-      <p>askdnfasjnfadsfasff adad s sdadsdds</p>
+      <p>Professional Experiences</p>
+      <p>Focuse on transferable skills</p>
     </a>
   );
 }
