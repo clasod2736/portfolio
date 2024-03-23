@@ -1,0 +1,14 @@
+.description-enter {
+  opacity: 0;
+}
+.description-enter-active {
+  opacity: 1;
+  transition: opacity 200ms;
+}
+.description-exit {
+  opacity: 1;
+}
+.description-exit-active {
+  opacity: 0;
+  transition: opacity 200ms;
+}

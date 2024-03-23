@@ -7,7 +7,7 @@ import styles from "../../styles/Logo.module.css";
 const Trail: React.FC<TrailProps> = ({ open, children }) => {
   const items = React.Children.toArray(children);
   const trail = useTrail(items.length, {
-    config: { mass: 60, tension: 2500, friction: 500 },
+    config: { mass: 30, tension: 2000, friction: 300 },
     opacity: open ? 1 : 0,
     x: open ? 0 : 20,
     height: open ? 110 : 0,

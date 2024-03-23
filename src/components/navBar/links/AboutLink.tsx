@@ -14,7 +14,7 @@ export default function AboutLink() {
     <a
       href="/about"
       className={`flex flex-col group rounded-lg border-2 border-transparent px-5 py-4 transition-colors  hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 hover:border-gray-300 hover:bg-gray-100 ${
-        anime ? "animate-slideUp" : ""
+        anime ? "animate-slideUp animation-delay-75" : ""
       }`}
     >
       <span>
