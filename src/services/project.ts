@@ -24,12 +24,18 @@ export function getProjectsImages() {
   return names;
 }
 
-export function getSkills({ project }: ProjectSkills) {
+export function getBriefs({ project }: ProjectSkills) {
   const projects = projectsArr.find((item) => item.id === project);
   const skillsIcons = skillsArr;
 
-  const result = skillsIcons.filter((item) =>
+  const skills = skillsIcons.filter((item) =>
     projects?.skills.includes(item.name)
   );
+
+  const result = skills.map((item) => ({
+    ...item,
+    tags: projects?.tag,
+    concept: projects?.concept,
+  }));
   return result;
 }

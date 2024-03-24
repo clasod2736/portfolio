@@ -3,7 +3,7 @@ import { getProjectsNames } from "../../services/project";
 import { ProjectsContext } from "../../context/ProjectsProvider";
 
 export default function ProjectsList() {
-  const { handleProject } = useContext(ProjectsContext);
+  const { handleProject, handleHover } = useContext(ProjectsContext);
 
   const names = getProjectsNames();
 
@@ -26,16 +26,21 @@ export default function ProjectsList() {
               <a
                 href={`/projects/${item.id}`}
                 className="flex flex-row gap-2 group transition-transform "
+                onMouseEnter={() => handleHover(true)}
+                onMouseLeave={() => handleHover(false)}
               >
                 <p className="transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                   →
                 </p>
                 {item.title}
+                <p className=" text-sm group-hover:opacity-100 opacity-0 transition-opacity">
+                  Click!
+                </p>
               </a>
             </li>
           );
         })}
-        <li className="flex flex-row justify-end text-lg font-thin transition-all gap-2 ">
+        <li className="flex flex-row justify-end text-base font-normal transition-all gap-2">
           Coming More Soon.
         </li>
       </ul>

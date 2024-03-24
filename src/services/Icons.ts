@@ -8,7 +8,7 @@ import { SiRedux } from "react-icons/si";
 import { SiPostcss } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
-import { BiLogoTypescript } from "react-icons/bi";
+import { SiTypescript } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import { SiVite } from "react-icons/si";
@@ -31,7 +31,7 @@ export const redux = SiRedux;
 export const postcss = SiPostcss;
 export const nodejs = FaNodeJs;
 export const mongodb = SiMongodb;
-export const typescript = BiLogoTypescript;
+export const typescript = SiTypescript;
 export const git = FaGitAlt;
 export const gitHub = FaGithubSquare;
 export const vite = SiVite;
@@ -55,8 +55,7 @@ export const skillsArr = [
   { name: "postcss", icon: SiPostcss },
   { name: "nodejs", icon: FaNodeJs },
   { name: "mongodb", icon: SiMongodb },
-  { name: "typescript", icon: BiLogoTypescript },
-  { name: "git", icon: FaGitAlt },
+  { name: "typescript", icon: SiTypescript },
   { name: "gitHub", icon: FaGithubSquare },
   { name: "vite", icon: SiVite },
   { name: "nextjs", icon: SiNextdotjs },

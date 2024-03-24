@@ -2,7 +2,7 @@ import ProjectsList from "../../components/projects/ProjectsList";
 import ProjectsImg from "../../components/projects/ProjectsImg";
 
 import { ProjectProvider } from "../../context/ProjectsProvider";
-import ProjectsSkills from "../../components/projects/ProjectsSkills";
+import ProjectsBrief from "../../components/projects/ProjectsBrief";
 
 export default function Projects() {
   return (
@@ -10,7 +10,7 @@ export default function Projects() {
       <ProjectProvider>
         <ProjectsImg />
         <ProjectsList />
-        <ProjectsSkills />
+        <ProjectsBrief />
       </ProjectProvider>
     </section>
   );
