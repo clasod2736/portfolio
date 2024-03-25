@@ -22,8 +22,8 @@ export default function ContactLink() {
           →
         </h6>
       </span>
-      <p>asjdfjnaskfkasjfn ass</p>
-      <p>askdnfasjns sdadsdds</p>
+      <p>Links to reach me.</p>
+      <p>Email contact form.</p>
     </a>
   );
 }

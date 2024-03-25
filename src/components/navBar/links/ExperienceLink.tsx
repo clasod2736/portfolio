@@ -24,7 +24,7 @@ export default function ExperienceLink() {
         </h6>
       </span>
       <p>Professional experiences.</p>
-      <p>Focuse on transferable skills.</p>
+      <p>Transferable skills.</p>
     </a>
   );
 }
