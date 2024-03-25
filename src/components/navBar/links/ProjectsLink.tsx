@@ -22,9 +22,9 @@ export default function ProjectsLink() {
           →
         </h6>
       </span>
-      <p>asjdfjnaskfkasjfn ass</p>
-      <p>askdnfasjns sdadsdds</p>
-      <p>sdssdfafsd</p>
+      <p>Breif details.</p>
+      <p>Links for github repository.</p>
+      <p>Links for live demo.</p>
     </a>
   );
 }

@@ -1,13 +1,16 @@
 import { projectsArr } from "../constants/projects";
 import { skillsArr } from "./Icons";
 import { ProjectSkills } from "../types";
+import { LocationString } from "../types";
 
-export function getProjectsNames() {
+export function getProjectsList() {
   const names = projectsArr
     .map((item) => {
       return {
         id: item.id,
         title: item.title,
+        link: item.link,
+        github: item.github,
       };
     })
     .reverse();
@@ -34,8 +37,17 @@ export function getBriefs({ project }: ProjectSkills) {
 
   const result = skills.map((item) => ({
     ...item,
+    id: projects?.id,
     tags: projects?.tag,
     concept: projects?.concept,
+    description: projects?.description,
   }));
   return result;
+}
+
+export function getLocationString({ location }: LocationString) {
+  const pathname = location.pathname;
+  const substring = pathname.substring("/projects/".length);
+
+  return substring;
 }

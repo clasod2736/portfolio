@@ -25,11 +25,11 @@ export default function ProjectsImg() {
   }, [project]);
 
   return (
-    <div className=" col-span-1 row-span-2 w-full h-full flex flex-col justify-center object-cover overflow-hidden animate-opacityIn">
+    <div className=" col-span-1 row-span-2 w-full h-full flex flex-col justify-center object-cover overflow-hidden animate-[opacityIn_0.8s]">
       <img
         src={imgSrc}
         alt="projectImg"
-        className={`h-full w-full ${
+        className={`h-full w-full object-cover ${
           fadeIn ? "animate-imgIn" : "animate-imgOut"
         }`}
       />

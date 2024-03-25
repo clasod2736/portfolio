@@ -2,9 +2,12 @@ export const projectsArr = [
   {
     id: "fhb",
     title: "For Homey Barista",
+    link: "https://main--voluble-kashata-776f36.netlify.app/",
+    github: "https://github.com/clasod2736/FHB-front",
     image: "/images/fhb.png",
     tag: "'Conceptual' coffee brewing web-app.",
-    concept: "Intergrating CRUD developement with RESTfulAPIs.",
+    concept:
+      "Full-stack web-app. Intergrating CRUD developement with RESTfulAPIs.",
     skills: [
       "react",
       "redux",
@@ -17,26 +20,30 @@ export const projectsArr = [
       "heroku",
     ],
     description:
-      "bla lsdk n asif nskfndjknfjn skdnf jd nsfkdn djfnskd jd knsfkndf ksn kd sknd j sdfjnsdfk sdjff sfkfnsdfj asdsfsfa sadasd s adas  sd ad asdas sd asd s sd adasdasdasd s da",
+      "This project idea started with my morning coffee routine, provide mock coffee guide with user-friendly UI design and user can save and customize their coffee recipe via my recipe page. Developed with React, Node.js and MongoDB and deployed on Netlify and Heroku.",
   },
   {
     id: "blog",
     title: "Joondev-Blog",
+    link: "https://joondev.blog/",
+    github: "https://github.com/clasod2736/DevBlog",
     image: "/images/blog.png",
-    tag: "Personal Tech archive.",
-    concept: "Utilizing features of SSR, serverless, CDN, CD pipeline",
+    tag: "Personal tech blog.",
+    concept: "Utilizing features of SSR, serverless, CDN and CD pipeline",
     skills: ["nextjs", "tailwind", "typescript", "aws", "githubActions"],
     description:
-      "bla lsdk n asif nskfndjknfjn skdnf jd nsfkdn djfnskd jd knsfkndf ksn kd sknd j sdfjnsdfk sdjff sfkfnsdfj asdsfsfa sadasd s adas  sd ad asdas sd asd s sd adasdasdasd s da",
+      "My own tech blog. Post and snippet sections are designed to effectively share my insights and studies for various purposes. Equipped with SEO features such as metadata, Open Graph and google search console, serveless architecture, CDN, CD pipeline. Developed with Next.js and deployed on AWS.",
   },
   {
     id: "portfolio",
     title: "Portfolio",
+    link: "",
+    github: "https://github.com/clasod2736/portfolio",
     image: "/images/portfolio.png",
     tag: "Portfolio website.",
-    concept: "Implimenting lazy loading, unit test, type stability.",
+    concept: "Implementing lazy loading, unit tests and type stability.",
     skills: ["react", "tailwind", "postcss", "typescript", "vite", "jest"],
     description:
-      "bla lsdk n asif nskfndjknfjn skdnf jd nsfkdn djfnskd jd knsfkndf ksn kd sknd j sdfjnsdfk sdjff sfkfnsdfj asdsfsfa sadasd s adas  sd ad asdas sd asd s sd adasdasdasd s da",
+      "SPA web portfolio, focused on sleek and smooth UI and implemented react lazy loading, unit tests with Jest and react-test-library and type stability with typescript. ",
   },
 ];

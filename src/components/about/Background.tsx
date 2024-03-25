@@ -16,8 +16,8 @@ export default function Background() {
         Currently, my focus lives on <b>Front-End</b>, which I find incredibly
         fulfilling. <br /> <br />
         <b>When I'm not in front of the computer screen</b>, I'm probably
-        fishing, jogging, singing or crossing off another item on my bucket
-        list.
+        jogging, fishing, playing music or crossing off another item on my
+        bucket list.
       </p>
     </article>
   );

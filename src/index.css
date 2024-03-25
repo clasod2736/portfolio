@@ -11,10 +11,6 @@ body {
   color: #3b3b3b;
 }
 
-::-webkit-scrollbar {
-  display: none;
-}
-
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #1f2023;

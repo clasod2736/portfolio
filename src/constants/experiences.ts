@@ -17,7 +17,7 @@ export const exArray = [
   {
     id: "chef",
     title: "Chef",
-    period: "April 2018 - Jan 2023",
+    period: "Apr 2018 - Feb 2023",
     place: "Mlbourne, Austarlia",
     description: [
       {
@@ -32,7 +32,7 @@ export const exArray = [
   {
     id: "musicInstructor",
     title: "Music Instructor",
-    period: "May 2016 - March 2018",
+    period: "May 2016 - Mar 2018",
     place: "Seoul, South Korea",
     description: [
       {

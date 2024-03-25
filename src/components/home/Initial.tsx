@@ -14,7 +14,7 @@ const Trail: React.FC<TrailProps> = ({ open, children }) => {
     from: { opacity: 0, x: 20, height: 0 },
   });
   return (
-    <div className="h-[25vh] w-auto">
+    <div className="h-[70%] w-auto">
       {trail.map(({ height, ...style }, index) => (
         <a.div
           key={index}

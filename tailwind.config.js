@@ -14,6 +14,10 @@ export default {
         mono: "url('/images/JoonMono.jpeg')",
       },
       keyframes: {
+        streamUp: {
+          "0%": { transform: "translateY(80%)", opacity: "0" },
+          "100%": { transform: "translateY(0%)", opacity: "1" },
+        },
         imgIn: {
           from: { opacity: "0.5" },
           to: { opacity: "1" },
@@ -51,6 +55,7 @@ export default {
         imgIn: "imgIn 0.2s backwards",
         imgOut: "imgOut 0.2s forwards",
         opacityOut: "opacityOut 0.3s forwards ",
+        streamUp: "streamUp 0.5s backwards",
       },
     },
   },

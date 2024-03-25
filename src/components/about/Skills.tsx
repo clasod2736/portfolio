@@ -44,7 +44,7 @@ export default function Skills() {
       <div
         className={`${styles.letters} ${
           skills ? "grid" : "hidden"
-        } animate-[slideUp_0.3s] text-base xl:text-xl`}
+        } animate-[slideUp_0.3s] text-base xl:text-lg`}
       >
         {skillNamesArr.map((skill) => {
           return <span key={skill.id}>{skill.title}</span>;

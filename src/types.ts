@@ -22,6 +22,26 @@ export type ProjectSkills = {
   project: string;
 };
 
+// Location substring
+export type LocationString = {
+  location: {
+    pathname: string;
+    search: string;
+    hash: string;
+    state: null;
+    key: string;
+  };
+};
+
+// Email props types
+export type Email = {
+  e: React.FormEvent<HTMLFormElement>;
+  name: string;
+  email: string;
+  message: string;
+  setWarn: (state: string) => void;
+};
+
 /* Types for context providers.*/
 // Chidren for context provider
 export type Children = {
