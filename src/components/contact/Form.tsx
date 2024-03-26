@@ -22,7 +22,7 @@ export default function Form() {
 
   return (
     <form
-      className=" min-[320px]:w-full md:w-[50%] h-[55%] md:h-full flex flex-col justify-end md:justify-start gap-4 lg:gap-0 animate-[opacityIn_0.8s]"
+      className=" w-full md:w-[50%] h-[55%] md:h-full flex flex-col justify-end md:justify-start gap-2 lg:gap-0 animate-[opacityIn_0.8s]"
       onSubmit={(e) => handleEmail({ e, name, email, message, setWarn })}
     >
       <h1 className="text-3xl mb-0 lg:mb-6">or...Email me now :)</h1>

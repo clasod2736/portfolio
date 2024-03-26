@@ -31,7 +31,7 @@ export default function ProjectsImg() {
       <img
         src={imgSrc}
         alt="projectImg"
-        className={`hidden lg:flex h-full w-full object-cover ${
+        className={`hidden lg:flex h-full w-[90%] object-cover ${
           fadeIn ? "animate-imgIn" : "animate-imgOut"
         }`}
       />
@@ -42,7 +42,7 @@ export default function ProjectsImg() {
         <img
           src={imgSrc}
           alt="projectImg"
-          className={`flex lg:hidden h-full min-[320px]:object-contain w-full object-cover ${
+          className={`flex lg:hidden h-full min-[320px]:object-contain w-full md:object-cover ${
             fadeIn ? "animate-imgIn" : "animate-imgOut"
           }`}
         />

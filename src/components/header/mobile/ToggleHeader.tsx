@@ -17,7 +17,7 @@ export default function ToggleHeader() {
     >
       <a
         href="/"
-        className="min-[320px]:text-2xl min-[500px]:text-3xl text-zinc-700 dark:text-zinc-300 hover:text-zinc-500 dark:hover:text-zinc-50 font-semibold pl-6"
+        className="text-3xl text-zinc-700 dark:text-zinc-300 hover:text-zinc-500 dark:hover:text-zinc-50 font-semibold pl-6"
       >
         Home
       </a>
@@ -26,7 +26,7 @@ export default function ToggleHeader() {
           setToggle(!toggle);
           handleBlur();
         }}
-        className="pr-6 min-[320px]:text-2xl min-[500px]:text-3xl text-zinc-700 dark:text-zinc-300 hover:text-zinc-500 dark:hover:text-zinc-50 font-semibold pl-6"
+        className="pr-6 text-3xl text-zinc-700 dark:text-zinc-300 hover:text-zinc-500 dark:hover:text-zinc-50 font-semibold pl-6"
       >
         Menu
       </button>

@@ -12,7 +12,7 @@ export default function ToggleMenu({ toggle, getToggle }: Toggle) {
       <div
         className={`${
           blur
-            ? "absolute w-[100%] h-[1200px] backdrop-blur-md translate-y-[40%] animate-opacityIn"
+            ? "absolute w-[100%] h-[1300px] backdrop-blur-md translate-y-[40%] animate-opacityIn"
             : "hidden"
         }`}
       >
