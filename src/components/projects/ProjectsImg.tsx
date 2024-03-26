@@ -31,7 +31,7 @@ export default function ProjectsImg() {
       <img
         src={imgSrc}
         alt="projectImg"
-        className={`hidden lg:flex h-full w-[90%] object-cover ${
+        className={`hidden lg:flex h-full w-gull object-cover ${
           fadeIn ? "animate-imgIn" : "animate-imgOut"
         }`}
       />
