@@ -14,14 +14,14 @@ export default function Skills() {
       <div
         className={`${styles.title} animate-slideToRight animation-delay-400`}
       >
-        <h4 className={styles.h4}>Technics</h4>
+        <h4 className="text-2xl md:text-2xl xl:text-3xl">Technics</h4>
         <button
           onClick={() => {
             setSkills(false);
           }}
           className={`${skills ? "" : "underline"}`}
         >
-          → Icons
+          Icons
         </button>
         <button
           onClick={() => {
@@ -29,7 +29,7 @@ export default function Skills() {
           }}
           className={`${skills ? "underline" : ""}`}
         >
-          → Letters
+          Letters
         </button>
       </div>
       <div
@@ -38,7 +38,10 @@ export default function Skills() {
         } animate-[slideUp_0.3s]`}
       >
         {skillsArr.map((skill) => (
-          <skill.icon key={skill.name} />
+          <skill.icon
+            key={skill.name}
+            className={styles.icons}
+          />
         ))}
       </div>
       <div
