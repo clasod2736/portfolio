@@ -6,6 +6,10 @@ export interface TrailProps {
   children: ReactNode;
 }
 
+export type Logo = {
+  width: number;
+};
+
 // Projects information
 export type Project = {
   item: {

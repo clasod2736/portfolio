@@ -25,7 +25,7 @@ export default function Links() {
               {item.id}
             </h5>
             <a
-              className="text-base font-light hover:underline italic"
+              className="flex flex-row text-base font-light hover:underline italic"
               href={item.link}
             >
               {item.title}

@@ -14,7 +14,7 @@ export default function Header() {
   }, [location.pathname]);
 
   return (
-    <header>
+    <header className="min-[320px]:hidden md:flex">
       <span>
         <a
           href="/"

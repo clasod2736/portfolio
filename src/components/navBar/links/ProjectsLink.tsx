@@ -12,19 +12,21 @@ export default function ProjectsLink() {
   return (
     <a
       href="/projects"
-      className={`flex flex-col group rounded-lg border-2 border-transparent px-5 py-4 transition-colors  hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 hover:border-gray-300 hover:bg-gray-100 animation-delay-400 ${
+      className={`flex flex-col group rounded-lg border-2 border-transparent px-5 py-2 transition-colors  hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 hover:border-gray-300 hover:bg-gray-100 animation-delay-400 ${
         anime ? "animate-slideUp" : ""
       }`}
     >
-      <span>
-        <h1>Projects</h1>
-        <h6 className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+      <span className="h-[35%]">
+        <h1 className="text-xl lg:text-2xl">Projects</h1>
+        <h6 className="text-2xl lg:text-2xl inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
           →
         </h6>
       </span>
-      <p>Breif details.</p>
-      <p>Links for github repository.</p>
-      <p>Links for live demo.</p>
+      <div className="hidden md:flex">
+        <p className="text-xs lg:text-base">Breif details.</p>
+        <p className="text-sm lg:text-base">Links for github repository.</p>
+        <p className="text-sm lg:text-base">Links for live demo.</p>
+      </div>
     </a>
   );
 }

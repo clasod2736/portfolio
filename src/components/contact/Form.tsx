@@ -11,7 +11,7 @@ export default function Form() {
   const renderWarn = (type: string) => {
     if (warn === type) {
       return (
-        <p className="text-base font-extrabold text-zinc-600 animate-opacityIn">
+        <p className="text-base font-extrabold dark:text-zinc-400 text-zinc-600 animate-opacityIn">
           *{type} required.
         </p>
       );
@@ -25,7 +25,7 @@ export default function Form() {
       className="w-[50%] flex flex-col justify-start animate-[opacityIn_0.8s]"
       onSubmit={(e) => handleEmail({ e, name, email, message, setWarn })}
     >
-      <h1 className="text-3xl mb-6">Or...Get in touch me now :)</h1>
+      <h1 className="text-3xl mb-6">or...Email me now :)</h1>
       <div className="flex flex-col justify-start h-[15%] gap-[3px]">
         <h5 className="text-xl font-semibold">Name</h5>
         <input
@@ -33,7 +33,7 @@ export default function Form() {
           name="name"
           placeholder="Your name"
           onChange={(e) => setName(e.target.value)}
-          className="text-lg p-[0.3rem] outline-zinc-500 border-2 border-zinc-300 rounded-sm"
+          className="text-lg p-[0.3rem] outline-zinc-500 border-2 border-zinc-300 rounded-sm dark:text-zinc-700"
         />
         {renderWarn("name")}
       </div>
@@ -44,7 +44,7 @@ export default function Form() {
           name="email"
           placeholder="Your email"
           onChange={(e) => setEmail(e.target.value)}
-          className="text-lg p-[0.3rem] outline-zinc-500 border-2 border-zinc-300 rounded-sm"
+          className="text-lg p-[0.3rem] outline-zinc-500 border-2 border-zinc-300 rounded-sm dark:text-zinc-700"
         />
         {renderWarn("email")}
       </div>
@@ -58,7 +58,8 @@ export default function Form() {
           }}
           cols={30}
           rows={7}
-          className="text-lg p-2 outline-zinc-500 border-2 border-zinc-300 rounded-sm"
+          className="dark:text-zinc-700 text-lg p-2 outline-zinc-500 border-2 border-zinc-300 rounded-sm"
+          placeholder="Your Message"
         />
         {renderWarn("message")}
       </div>
