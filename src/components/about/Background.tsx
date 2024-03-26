@@ -1,6 +1,6 @@
 export default function Background() {
   return (
-    <article className="w-full h-full flex flex-col md:flex-row">
+    <article className="w-full h-[75%] md:h-full flex flex-col md:flex-row">
       <h4 className="py-2 border-b-[1px] border-zinc-500 md:border-b-0 w-full md:w-[20%] md:text-right text-3xl md:text-2xl xl:text-[32px] animate-slideToRight animation-delay-200">
         Background
       </h4>

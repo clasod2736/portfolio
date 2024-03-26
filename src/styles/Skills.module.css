@@ -7,6 +7,8 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+
+    height: 50%;
   }
 }
 
@@ -161,6 +163,6 @@
     font-size: 2.5rem;
   }
   @media (max-width: 500px) {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 }
