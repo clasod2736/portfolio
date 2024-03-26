@@ -2,28 +2,10 @@ import { useContext } from "react";
 import { Toggle } from "../../../types";
 import { BlurContext } from "../../../context/BlurProvider";
 
-import { Github, LinkedIn, Blog } from "../../../services/Icons";
+import { linkArr, iconsinToggle } from "../../../constants/toggleMenu";
 
 export default function ToggleMenu({ toggle, getToggle }: Toggle) {
   const { blur, handleBlur } = useContext(BlurContext);
-
-  const linkArr = [
-    { title: "Home", id: "" },
-    { title: "About", id: "about" },
-    { title: "Experience", id: "experience" },
-    { title: "Projects", id: "projects" },
-    { title: "Contact", id: "contact" },
-  ];
-
-  const icons = [
-    { content: Github, id: "github", link: "https://github.com/clasod2736" },
-    {
-      content: LinkedIn,
-      id: "linkedin",
-      link: "https://www.linkedin.com/in/joon-park-dev",
-    },
-    { content: Blog, id: "blog", link: "https://joondev.blog" },
-  ];
 
   return (
     <>
@@ -60,7 +42,7 @@ export default function ToggleMenu({ toggle, getToggle }: Toggle) {
             );
           })}
           <span className="gap-8 my-4">
-            {icons.map((item) => {
+            {iconsinToggle.map((item) => {
               return (
                 <a
                   key={item.id}
