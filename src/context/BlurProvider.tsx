@@ -2,13 +2,13 @@ import { createContext, useState } from "react";
 import { type Children } from "../types";
 import { type BlurValue } from "../types";
 
-const BlurContext = createContext<BlurValue>({
-  blur: true,
+export const BlurContext = createContext<BlurValue>({
+  blur: false,
   handleBlur: () => {},
 });
 
 export function BlurProvider({ children }: Children) {
-  const [blur, setBlur] = useState(true);
+  const [blur, setBlur] = useState(false);
 
   const handleBlur = () => setBlur(!blur);
 

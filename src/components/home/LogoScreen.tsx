@@ -31,7 +31,7 @@ export default function LogoScreen({ width }: Logo) {
           onClick={() => setOpen(true)}
         >
           <Trail open={open}>
-            <h1 className="text-[4.5rem]">G'day! I'm</h1>
+            <h1 className="text-[5rem]">G'day! I'm</h1>
             <h1 className="text-[5rem] text-zinc-500 italic">Joon Park</h1>
             <h2 className="text-[4.5rem]">Frone-End</h2>
             <h2 className="text-[4.5rem]">Developer</h2>

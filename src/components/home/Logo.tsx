@@ -12,7 +12,5 @@ export default function Logo() {
     setWidth(screen);
   }, [screen]);
 
-  console.log(width);
-
   return <LogoScreen width={width} />;
 }

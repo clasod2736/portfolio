@@ -49,9 +49,7 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 15%;
-  width: 100%;
-
-  padding-inline: 2rem;
+  width: 95%;
 }
 
 nav {
@@ -60,11 +58,9 @@ nav {
   grid-template-rows: 1fr;
 
   height: 15%;
-  width: 100%;
+  width: 95%;
 
   gap: 1rem;
-
-  padding-inline: 2rem;
 }
 
 span {
