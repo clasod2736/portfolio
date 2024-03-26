@@ -9,7 +9,7 @@ export default function ProjectsBrief() {
   const briefs = getBriefs({ project });
 
   return (
-    <section className="md:row-start-2 md:row-end-2 md:col-end-3 lg:row-start-2 lg:row-end-4 flex flex-col md:justify-between lg:justify-center h-[30%] md:h-full w-full gap-4 md:gap-0 lg:gap-2 animate-opacityIn py-2">
+    <section className="md:row-start-2 md:row-end-2 md:col-end-3 lg:row-start-2 lg:row-end-4 flex flex-col md:justify-between lg:justify-center h-[30%] md:h-full w-full gap-4 md:gap-0 lg:gap-2 animate-opacityIn animation-delay-1000 py-2">
       <h5 className="text-base font-semibold">{briefs[0].tags}</h5>
       <div className=" border-l-[1px] border-zinc-600 pl-2">
         <p className="text-sm italic">{briefs[0].concept}</p>
