@@ -71,6 +71,4 @@ export type ExperienceValue = {
 export type ProjectsValue = {
   project: string;
   handleProject: (data: string) => string | void;
-  hover: boolean;
-  handleHover: (data: boolean) => boolean | void;
 };

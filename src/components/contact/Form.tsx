@@ -22,10 +22,10 @@ export default function Form() {
 
   return (
     <form
-      className="w-[50%] flex flex-col justify-start animate-[opacityIn_0.8s]"
+      className=" min-[320px]:w-full md:w-[50%] h-[55%] md:h-full flex flex-col justify-start gap-6 md:gap-0 animate-[opacityIn_0.8s]"
       onSubmit={(e) => handleEmail({ e, name, email, message, setWarn })}
     >
-      <h1 className="text-3xl mb-6">or...Email me now :)</h1>
+      <h1 className="text-3xl mb-0 lg:mb-6">or...Email me now :)</h1>
       <div className="flex flex-col justify-start h-[15%] gap-[3px]">
         <h5 className="text-xl font-semibold">Name</h5>
         <input

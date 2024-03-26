@@ -22,6 +22,7 @@ import { SiGithubactions } from "react-icons/si";
 import { SiVim } from "react-icons/si";
 import { SiLinkedin } from "react-icons/si";
 import { SiBloglovin } from "react-icons/si";
+import { TbWorldWww } from "react-icons/tb";
 
 export const Html = FaHtml5;
 export const Css = TiCss3;
@@ -47,6 +48,7 @@ export const GithubcAtions = SiGithubactions;
 export const Vim = SiVim;
 export const LinkedIn = SiLinkedin;
 export const Blog = SiBloglovin;
+export const web = TbWorldWww;
 
 export const skillsArr = [
   { name: "html", icon: FaHtml5 },

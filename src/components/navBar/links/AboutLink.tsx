@@ -24,7 +24,7 @@ export default function AboutLink() {
         </h6>
       </span>
       <div className="hidden md:flex">
-        <p className="text-sm lg:text-base">About web developer Joon Park.</p>
+        <p className="text-sm lg:text-base">About Joon Park.</p>
         <p className="text-sm lg:text-base">Backgrounds, Technical skills.</p>
       </div>
     </a>

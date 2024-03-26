@@ -41,6 +41,8 @@ export function getBriefs({ project }: ProjectSkills) {
     tags: projects?.tag,
     concept: projects?.concept,
     description: projects?.description,
+    link: projects?.link,
+    github: projects?.github,
   }));
   return result;
 }

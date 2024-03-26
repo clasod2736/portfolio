@@ -37,6 +37,10 @@ main {
   align-items: center;
 
   padding-block: 3rem;
+
+  @media (max-width: 768px) {
+    justify-content: flex-start;
+  }
 }
 
 article {

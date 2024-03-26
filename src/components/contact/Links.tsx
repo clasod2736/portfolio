@@ -2,7 +2,7 @@ import { contactLinks } from "../../constants/contact";
 
 export default function Links() {
   return (
-    <article className="flex flex-col gap-8 w-[40%]">
+    <article className="flex flex-col gap-4 md:gap-8 w-full md:w-[40%] h-[42%] md:h-full">
       <h1 className=" text-3xl animate-slideToRight">Links to reach me.</h1>
       <div>
         <p className="border-l-2 border-zinc-400 pl-2 text-lg">
