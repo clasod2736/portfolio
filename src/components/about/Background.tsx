@@ -1,10 +1,10 @@
 export default function Background() {
   return (
-    <article className="w-full h-full flex flex-row">
-      <h4 className="w-[20%] text-right lg:text-2xl xl:text-[32px] animate-slideToRight animation-delay-200">
+    <article className="w-full h-[75%] md:h-full flex flex-col md:flex-row">
+      <h4 className="py-2 border-b-[1px] border-zinc-500 md:border-b-0 w-full md:w-[20%] md:text-right text-3xl md:text-2xl xl:text-[32px] animate-slideToRight animation-delay-200">
         Background
       </h4>
-      <p className="px-8 text-xl leading-8 w-[80%] flex-wrap animate-[slideUp_0.3s]">
+      <p className="md:pt-0 min-[320px]:pt-2 px-0 md:px-4 lg:px-8 min-[500px]:text-lg lg:text-xl leading-8 w-full md:w-[80%] flex-wrap animate-[slideUp_0.3s]">
         Hi! I'm <b>Joon</b>, based in Melbourne and have been self-studying Web
         Development since early 2023. <br /> <br />
         As a web developer, I enjoy — combining my technical knowledge with my

@@ -5,15 +5,20 @@ export default {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      extend: {
-        blur: {
-          xs: "2px",
-        },
+      boxShadow: {
+        mobileResume: "2px 2px 2px 1px rgba(0, 0, 0, 0.3)",
+      },
+      blur: {
+        xs: "2px",
       },
       backgroundImage: {
         mono: "url('/images/JoonMono.jpeg')",
       },
       keyframes: {
+        toggleMenu: {
+          "0%": { transform: "translateX(80%)" },
+          "100%": { transform: "translateX(0%)" },
+        },
         streamUp: {
           "0%": { transform: "translateY(80%)", opacity: "0" },
           "100%": { transform: "translateY(0%)", opacity: "1" },
@@ -56,6 +61,7 @@ export default {
         imgOut: "imgOut 0.2s forwards",
         opacityOut: "opacityOut 0.3s forwards ",
         streamUp: "streamUp 0.5s backwards",
+        toggleMenu: "toggleMenu 0.5s backwards",
       },
     },
   },

@@ -13,7 +13,7 @@ body {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #1f2023;
+    background-color: #222326;
     color: #dadada;
   }
 }
@@ -29,8 +29,8 @@ body {
 
 main {
   width: 100%;
-  max-width: 90rem;
   height: 1200px;
+  max-width: 90rem;
 
   display: flex;
   flex-direction: column;
@@ -38,6 +38,10 @@ main {
   align-items: center;
 
   padding-block: 3rem;
+
+  @media (max-width: 768px) {
+    justify-content: flex-start;
+  }
 }
 
 article {
@@ -50,9 +54,7 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 15%;
-  width: 100%;
-
-  padding-inline: 2rem;
+  width: 95%;
 }
 
 nav {
@@ -61,11 +63,9 @@ nav {
   grid-template-rows: 1fr;
 
   height: 15%;
-  width: 100%;
+  width: 95%;
 
   gap: 1rem;
-
-  padding-inline: 2rem;
 }
 
 span {

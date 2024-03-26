@@ -2,6 +2,14 @@
   width: 100%;
   display: flex;
   flex-direction: row;
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    height: 50%;
+  }
 }
 
 .title {
@@ -21,11 +29,40 @@
       text-decoration: underline;
     }
   }
-}
 
-.h4 {
-  @media (max-width: 1280px) {
-    font-size: 1.6rem;
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    height: 18%;
+
+    border-bottom: 1px solid dimgrey;
+
+    gap: 2rem;
+
+    button {
+      font-size: 1.2rem;
+      font-style: italic;
+      font-weight: 300;
+    }
+  }
+  @media (max-width: 500px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    height: 18%;
+
+    border-bottom: 1px solid dimgrey;
+
+    gap: 2rem;
+
+    button {
+      font-size: 1rem;
+      font-style: italic;
+      font-weight: 300;
+    }
   }
 }
 
@@ -42,6 +79,28 @@
 
   @media (min-width: 1280px) {
     padding-inline: 1rem;
+  }
+  @media (max-width: 1280px) {
+    padding-right: 2rem;
+  }
+  @media (max-width: 768px) {
+    width: 100%;
+    height: 60%;
+
+    padding-right: 0;
+
+    font-size: 2.5rem;
+  }
+  @media (max-width: 500px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    width: 100%;
+    height: 100%;
+
+    padding-right: 0;
+
+    font-size: 3rem;
   }
 }
 
@@ -66,16 +125,44 @@
   @media (min-width: 1024px) {
     padding-inline: 1.5rem;
   }
+  @media (max-width: 1024px) {
+    padding-right: 2rem;
+  }
+  @media (max-width: 768px) {
+    padding-inline: 0rem;
+
+    span {
+      font-size: 1.2rem;
+    }
+
+    width: 100%;
+    height: 100%;
+  }
+  @media (max-width: 500px) {
+    padding-inline: 0rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    width: 100%;
+    height: 100%;
+
+    span {
+      font-size: 0.8rem;
+    }
+  }
 }
 
-svg {
+.icons {
   cursor: pointer;
 
   &:hover {
     transform: scale(1.1);
   }
 
-  @media (max-width: 1280px) {
+  @media (min-width: 768px) {
+    font-size: 2.5rem;
+  }
+  @media (max-width: 500px) {
     font-size: 2rem;
   }
 }

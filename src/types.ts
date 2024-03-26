@@ -6,6 +6,15 @@ export interface TrailProps {
   children: ReactNode;
 }
 
+export type Logo = {
+  width: number;
+};
+
+export type Toggle = {
+  toggle: boolean;
+  getToggle: (data: boolean) => boolean | void;
+};
+
 // Projects information
 export type Project = {
   item: {
@@ -39,7 +48,7 @@ export type Email = {
   name: string;
   email: string;
   message: string;
-  setWarn: (state: string) => void;
+  setWarn: (state: string) => string | void;
 };
 
 /* Types for context providers.*/
@@ -51,7 +60,7 @@ export type Children = {
 // Type for Blur context provider
 export type BlurValue = {
   blur: boolean;
-  handleBlur: () => void;
+  handleBlur: () => boolean | void;
 };
 
 export type ExperienceValue = {
@@ -62,6 +71,4 @@ export type ExperienceValue = {
 export type ProjectsValue = {
   project: string;
   handleProject: (data: string) => string | void;
-  hover: boolean;
-  handleHover: (data: boolean) => boolean | void;
 };
