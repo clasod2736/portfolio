@@ -7,7 +7,7 @@ export const projectsArr = [
     image: "/images/fhb.png",
     tag: "'Conceptual' coffee brewing web-app.",
     concept:
-      "Full-stack web-app. Intergrating CRUD developement with RESTfulAPIs.",
+      "Full-stack web-app. Integrating CRUD development with RESTfulAPIs.",
     skills: [
       "react",
       "redux",
@@ -20,7 +20,7 @@ export const projectsArr = [
       "heroku",
     ],
     description:
-      "This project idea started with my morning coffee routine, provide mock coffee guide with user-friendly UI design and user can save and customize their coffee recipe via my recipe page. Developed with React, Node.js and MongoDB and deployed on Netlify and Heroku.",
+      "This project idea started with my morning coffee routine, provide mock coffee guide with user-friendly UI design and user can save and customize their coffee recipe via my Recipe page. Developed with React, Node.js and MongoDB and deployed on Netlify and Heroku.",
   },
   {
     id: "blog",

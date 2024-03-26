@@ -4,7 +4,7 @@ export default function Links() {
   return (
     <article className="flex flex-col gap-2 md:gap-8 w-full md:w-[40%] h-[42%] md:h-full">
       <h1 className=" text-3xl animate-slideToRight">Links to reach me.</h1>
-      <div>
+      <div className=" animate-slideToRight animation-delay-100">
         <p className="border-l-2 border-zinc-400 pl-2 text-base md:text-lg">
           I'm always open to communicate with any topics tech relevant and happy
           to hear the comments or advises for my codes.
@@ -17,7 +17,7 @@ export default function Links() {
         return (
           <div
             className={`gap-2 animate-slideToRight animation-delay-${
-              (index + 1) * 100
+              (index + 2) * 100
             }`}
             key={item.id}
           >

@@ -1,11 +1,11 @@
 import { useContext } from "react";
 import { getProjectsList } from "../../services/project";
 import { ProjectsContext } from "../../context/ProjectsProvider";
-
-import { Github } from "../../services/Icons";
+import { BlurContext } from "../../context/BlurProvider";
 
 export default function ProjectsList() {
   const { handleProject } = useContext(ProjectsContext);
+  const { blur } = useContext(BlurContext);
 
   const names = getProjectsList();
 
@@ -54,19 +54,25 @@ export default function ProjectsList() {
                   </p>
                 </button>
               </span>
-              <div>
+              <div className={`${blur ? "blur-md" : ""}`}>
                 <a
                   href={item.github}
-                  className=" z-[-1] text-2xl lg:text-xl opacity-30 hover:opacity-100"
+                  className=" text-3xl lg:text-xl opacity-30 hover:opacity-80"
                 >
-                  <Github />
+                  <img
+                    src="/githubIcon.png"
+                    alt="githubIcon"
+                  ></img>
                 </a>
               </div>
             </li>
           );
         })}
-        <li className="hidden md:flex flex-row justify-end text-base font-normal transition-all gap-2 animate-streamUp animation-delay-500">
+        <li className="hidden lg:flex flex-row justify-end text-base font-normal transition-all gap-2 animate-streamUp animation-delay-500">
           Coming More Soon.
+        </li>
+        <li className="flex lg:hidden italic flex-row justify-end text-sm font-semibold transition-all gap-2 animate-streamUp animation-delay-500 my-1">
+          Click Image to go to Live Demo.
         </li>
       </ul>
     </div>

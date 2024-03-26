@@ -17,7 +17,7 @@ export default function ToggleMenu({ toggle, getToggle }: Toggle) {
         }`}
       >
         <div
-          className={`fixed z-20 translate-x-[23%] translate-y-[0%] gap-2 text-zinc-100 ${
+          className={`fixed z-10 translate-x-[23%] translate-y-[0%] gap-2 text-zinc-100 ${
             toggle ? "flex" : "hidden"
           } flex-col justify-center items-center w-[70%] h-[600px] rounded-xl bg-gradient-to-bl border-[1px] border-zinc-500 dark:from-zinc-600 from-zinc-700 animate-opacityIn`}
         >
