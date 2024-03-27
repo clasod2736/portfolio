@@ -2,6 +2,8 @@ import { useContext } from "react";
 import { getProjectsList } from "../../services/project";
 import { ProjectsContext } from "../../context/ProjectsProvider";
 
+import { Github } from "../../services/Icons";
+
 export default function ProjectsList() {
   const { handleProject } = useContext(ProjectsContext);
 
@@ -57,10 +59,7 @@ export default function ProjectsList() {
                   href={item.github}
                   className=" text-3xl lg:text-xl opacity-30 hover:opacity-80"
                 >
-                  <img
-                    src="/githubIcon.png"
-                    alt="githubIcon"
-                  ></img>
+                  <Github />
                 </a>
               </div>
             </li>
