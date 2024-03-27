@@ -1,11 +1,9 @@
 import { useContext } from "react";
 import { getProjectsList } from "../../services/project";
 import { ProjectsContext } from "../../context/ProjectsProvider";
-import { BlurContext } from "../../context/BlurProvider";
 
 export default function ProjectsList() {
   const { handleProject } = useContext(ProjectsContext);
-  const { blur } = useContext(BlurContext);
 
   const names = getProjectsList();
 
@@ -54,7 +52,7 @@ export default function ProjectsList() {
                   </p>
                 </button>
               </span>
-              <div className={`${blur ? "blur-md" : ""}`}>
+              <div>
                 <a
                   href={item.github}
                   className=" text-3xl lg:text-xl opacity-30 hover:opacity-80"

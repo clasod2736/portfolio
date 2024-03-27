@@ -10,11 +10,6 @@ export type Logo = {
   width: number;
 };
 
-export type Toggle = {
-  toggle: boolean;
-  getToggle: (data: boolean) => boolean | void;
-};
-
 // Projects information
 export type Project = {
   item: {
@@ -58,9 +53,11 @@ export type Children = {
 };
 
 // Type for Blur context provider
-export type BlurValue = {
+export type ToggleValue = {
   blur: boolean;
   handleBlur: () => boolean | void;
+  toggle: boolean;
+  handleToggle: () => boolean | void;
 };
 
 export type ExperienceValue = {

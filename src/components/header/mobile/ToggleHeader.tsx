@@ -1,15 +1,9 @@
-import { useState, useContext } from "react";
-import { BlurContext } from "../../../context/BlurProvider";
+import { useContext } from "react";
+import { ToggleContext } from "../../../context/ToggleProvider";
 import ToggleMenu from "./ToggleMenu";
 
 export default function ToggleHeader() {
-  const { handleBlur } = useContext(BlurContext);
-
-  const [toggle, setToggle] = useState(false);
-
-  const getToggle = (data: boolean) => {
-    setToggle(data);
-  };
+  const { handleBlur, handleToggle } = useContext(ToggleContext);
 
   return (
     <section
@@ -23,17 +17,14 @@ export default function ToggleHeader() {
       </a>
       <button
         onClick={() => {
-          setToggle(!toggle);
+          handleToggle();
           handleBlur();
         }}
         className="pr-6 text-3xl text-zinc-700 dark:text-zinc-300 hover:text-zinc-500 dark:hover:text-zinc-50 font-semibold pl-6"
       >
         Menu
       </button>
-      <ToggleMenu
-        toggle={toggle}
-        getToggle={getToggle}
-      />
+      <ToggleMenu />
     </section>
   );
 }

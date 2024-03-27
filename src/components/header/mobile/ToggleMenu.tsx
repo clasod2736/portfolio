@@ -1,18 +1,17 @@
 import { useContext } from "react";
-import { Toggle } from "../../../types";
-import { BlurContext } from "../../../context/BlurProvider";
+import { ToggleContext } from "../../../context/ToggleProvider";
 
 import { linkArr, iconsinToggle } from "../../../constants/toggleMenu";
 
-export default function ToggleMenu({ toggle, getToggle }: Toggle) {
-  const { blur, handleBlur } = useContext(BlurContext);
+export default function ToggleMenu() {
+  const { toggle, handleToggle, handleBlur, blur } = useContext(ToggleContext);
 
   return (
     <>
       <div
         className={`${
           blur
-            ? "absolute w-[100%] h-[1300px] backdrop-blur-md translate-y-[40%] animate-opacityIn"
+            ? "flex z-10 md:hidden absolute w-[100%] h-[1300px] backdrop-blur-md translate-y-[40%] animate-opacityIn"
             : "hidden"
         }`}
       >
@@ -25,7 +24,7 @@ export default function ToggleMenu({ toggle, getToggle }: Toggle) {
             return (
               <ul
                 onClick={() => {
-                  getToggle(!toggle);
+                  handleToggle();
                   handleBlur();
                 }}
                 className="list-none pl-0 text-3xl underline font-bold"
