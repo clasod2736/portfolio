@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 
 import { handleEmail } from "../../services/contact";
 
@@ -7,6 +7,13 @@ export default function Form() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [warn, setWarn] = useState("");
+
+  // Access DOM element with useRef. Set focus on first contact input in contact page automatically.
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    inputRef.current?.focus();
+  }, [name]);
 
   const renderWarn = (type: string) => {
     if (warn === type) {
@@ -34,6 +41,7 @@ export default function Form() {
           placeholder="Your name"
           onChange={(e) => setName(e.target.value)}
           className="text-lg p-[0.3rem] outline-zinc-500 border-2 border-zinc-300 rounded-sm dark:text-zinc-700"
+          ref={inputRef}
         />
         {renderWarn("name")}
       </div>
