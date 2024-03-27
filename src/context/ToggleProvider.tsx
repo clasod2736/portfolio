@@ -9,7 +9,7 @@ export const ToggleContext = createContext<ToggleValue>({
   handleToggle: () => {},
 });
 
-export function BlurProvider({ children }: Children) {
+export function ToggleProvider({ children }: Children) {
   const [blur, setBlur] = useState(false);
   const [toggle, setToggle] = useState(false);
 

@@ -2,7 +2,6 @@ import Home from "./Pages/home";
 import NotFound from "./error/NotFound";
 import Root from "./routes/Root";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import { BlurProvider } from "./context/ToggleProvider";
 
 // Components
 import About from "./Pages/about";
@@ -27,9 +26,5 @@ const router = createBrowserRouter([
 ]);
 
 export default function App() {
-  return (
-    <BlurProvider>
-      <RouterProvider router={router} />
-    </BlurProvider>
-  );
+  return <RouterProvider router={router} />;
 }

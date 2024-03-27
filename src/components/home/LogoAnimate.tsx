@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useMemo } from "react";
 import { useTrail, a } from "@react-spring/web";
 import { TrailProps } from "../../types";
 
 import styles from "../../styles/Logo.module.css";
 
 export const Trail: React.FC<TrailProps> = ({ open, children }) => {
-  const items = React.Children.toArray(children);
+  const items = useMemo(() => React.Children.toArray(children), [children]);
   const trail = useTrail(items.length, {
     config: { mass: 30, tension: 2000, friction: 300 },
     opacity: open ? 1 : 0,

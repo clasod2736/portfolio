@@ -1,13 +1,14 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
 
 import styles from "../../styles/Skills.module.css";
-import { skillNamesArr } from "../../constants/skills";
 
 // Icons
 import { skillsArr } from "../../services/Icons";
 
 export default function Skills() {
   const [skills, setSkills] = useState(false);
+
+  const memoizedSkillsArr = useMemo(() => skillsArr, []);
 
   return (
     <article className={styles.container}>
@@ -37,7 +38,7 @@ export default function Skills() {
           skills ? "hidden" : "grid"
         } animate-[slideUp_0.3s]`}
       >
-        {skillsArr.map((skill) => (
+        {memoizedSkillsArr.map((skill) => (
           <skill.icon
             key={skill.name}
             className={styles.icons}
@@ -49,8 +50,8 @@ export default function Skills() {
           skills ? "grid" : "hidden"
         } animate-[slideUp_0.3s] text-base xl:text-lg`}
       >
-        {skillNamesArr.map((skill) => {
-          return <span key={skill.id}>{skill.title}</span>;
+        {memoizedSkillsArr.map((skill) => {
+          return <span key={skill.name}>{skill.title}</span>;
         })}
       </div>
     </article>
