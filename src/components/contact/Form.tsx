@@ -18,7 +18,10 @@ export default function Form() {
   const renderWarn = (type: string) => {
     if (warn === type) {
       return (
-        <p className="text-base font-extrabold dark:text-zinc-400 text-zinc-600 animate-opacityIn">
+        <p
+          data-testid="notice"
+          className="text-base font-extrabold dark:text-zinc-400 text-zinc-600 animate-opacityIn"
+        >
           *{type} required.
         </p>
       );
@@ -38,6 +41,8 @@ export default function Form() {
         <input
           type="text"
           name="name"
+          role="input"
+          data-testid="nameInput"
           placeholder="Your name"
           onChange={(e) => setName(e.target.value)}
           className="text-lg p-[0.3rem] outline-zinc-500 border-2 border-zinc-300 rounded-sm dark:text-zinc-700"
@@ -50,6 +55,7 @@ export default function Form() {
         <input
           type="text"
           name="email"
+          role="input"
           placeholder="Your email"
           onChange={(e) => setEmail(e.target.value)}
           className="text-lg p-[0.3rem] outline-zinc-500 border-2 border-zinc-300 rounded-sm dark:text-zinc-700"
@@ -61,6 +67,7 @@ export default function Form() {
         <textarea
           name="message"
           id="message"
+          role="input"
           onChange={(e) => {
             setMessage(e.target.value);
           }}
@@ -73,6 +80,7 @@ export default function Form() {
       </div>
       <button
         type="submit"
+        role="submit"
         className="text-xl font-semibold border-2 hover:dark:bg-neutral-700/30 dark:border-neutral-700 border-gray-300 hover:bg-gray-100 hover:border-gray-400 transition py-2 px-4 rounded-sm"
       >
         {warn === "submitted" ? "Thankyou!" : "Submit"}
