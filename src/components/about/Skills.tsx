@@ -8,6 +8,7 @@ import { skillsArr } from "../../services/Icons";
 export default function Skills() {
   const [skills, setSkills] = useState(false);
 
+  //Memoized svg files for icons, react-icons's svg files are heavy.
   const memoizedSkillsArr = useMemo(() => skillsArr, []);
 
   return (
