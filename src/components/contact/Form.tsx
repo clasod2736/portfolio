@@ -75,12 +75,13 @@ export default function Form() {
           rows={7}
           className="dark:text-zinc-700 text-lg p-2 outline-zinc-500 border-2 border-zinc-300 rounded-sm"
           placeholder="Your Message"
+          style={{ resize: "none" }}
         />
         {renderWarn("message")}
       </div>
       <button
-        type="submit"
         role="submit"
+        type="submit"
         className="text-xl font-semibold border-2 hover:dark:bg-neutral-700/30 dark:border-neutral-700 border-gray-300 hover:bg-gray-100 hover:border-gray-400 transition py-2 px-4 rounded-sm"
       >
         {warn === "submitted" ? "Thankyou!" : "Submit"}

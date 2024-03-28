@@ -6,8 +6,15 @@ import "@testing-library/user-event";
 
 import Form from "../components/contact/Form";
 
+import renderer from "react-test-renderer";
+
+it("renders correctly", () => {
+  const tree = renderer.create(<Form />).toJSON();
+  expect(tree).toMatchSnapshot();
+});
+
 describe("Form component in contact page.", () => {
-  it("there are all inputs(3) and button?", () => {
+  it("there are all inputs(3) and button on screen?", () => {
     render(<Form />);
     const input = screen.getAllByRole("input");
     const button = screen.getByRole("submit");

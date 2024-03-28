@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<form
+  className=" w-full md:w-[50%] h-[55%] md:h-full flex flex-col justify-end md:justify-start gap-2 lg:gap-0 animate-[opacityIn_0.8s]"
+  onSubmit={[Function]}
+>
+  <h1
+    className="text-3xl mb-0 lg:mb-6"
+  >
+    or...Email me now :)
+  </h1>
+  <div
+    className="flex flex-col justify-start h-[15%] gap-[3px]"
+  >
+    <h5
+      className="text-xl font-semibold"
+    >
+      Name
+    </h5>
+    <input
+      className="text-lg p-[0.3rem] outline-zinc-500 border-2 border-zinc-300 rounded-sm dark:text-zinc-700"
+      data-testid="nameInput"
+      name="name"
+      onChange={[Function]}
+      placeholder="Your name"
+      role="input"
+      type="text"
+    />
+  </div>
+  <div
+    className="flex flex-col justify-start h-[15%] gap-[3px]"
+  >
+    <h5
+      className="text-xl font-semibold"
+    >
+      Email
+    </h5>
+    <input
+      className="text-lg p-[0.3rem] outline-zinc-500 border-2 border-zinc-300 rounded-sm dark:text-zinc-700"
+      name="email"
+      onChange={[Function]}
+      placeholder="Your email"
+      role="input"
+      type="text"
+    />
+  </div>
+  <div
+    className="flex flex-col justify-start h-[42%] gap-[3px]"
+  >
+    <h5
+      className="text-xl font-semibold"
+    >
+      Message
+    </h5>
+    <textarea
+      className="dark:text-zinc-700 text-lg p-2 outline-zinc-500 border-2 border-zinc-300 rounded-sm"
+      cols={30}
+      id="message"
+      name="message"
+      onChange={[Function]}
+      placeholder="Your Message"
+      role="input"
+      rows={7}
+      style={
+        {
+          "resize": "none",
+        }
+      }
+    />
+  </div>
+  <button
+    className="text-xl font-semibold border-2 hover:dark:bg-neutral-700/30 dark:border-neutral-700 border-gray-300 hover:bg-gray-100 hover:border-gray-400 transition py-2 px-4 rounded-sm"
+    role="submit"
+    type="submit"
+  >
+    Submit
+  </button>
+</form>
+`;
