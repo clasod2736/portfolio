@@ -51,7 +51,7 @@ export default function ToggleMenu() {
           </span>
           <a
             className="text-zinc-700 dark:text-zinc-300 text-2xl ml-4 border-2  dark:border-neutral-700 border-gray-500 py-2 px-4 rounded-md shadow-mobileResume"
-            href="https://drive.google.com/file/d/1JJNUaLZr-3sZjp5ccZW4HjvX2O3gZwSg/view?usp=sharing"
+            href="https://drive.google.com/file/d/1MegD9dp0HG1RZWNgpBmnngFlk_dqoMwh/view?usp=sharing"
           >
             Resume
           </a>
