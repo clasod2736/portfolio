@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`Check all the initial UI components rendering well renders all UI components correctly with snapshot test 1`] = `
 <form
   className=" w-full md:w-[50%] h-[55%] md:h-full flex flex-col justify-end md:justify-start gap-2 lg:gap-0 animate-[opacityIn_0.8s]"
   onSubmit={[Function]}
@@ -38,6 +38,7 @@ exports[`renders correctly 1`] = `
     </h5>
     <input
       className="text-lg p-[0.3rem] outline-zinc-500 border-2 border-zinc-300 rounded-sm dark:text-zinc-700"
+      data-testid="emailInput"
       name="email"
       onChange={[Function]}
       placeholder="Your email"
@@ -56,6 +57,7 @@ exports[`renders correctly 1`] = `
     <textarea
       className="dark:text-zinc-700 text-lg p-2 outline-zinc-500 border-2 border-zinc-300 rounded-sm"
       cols={30}
+      data-testid="messageInput"
       id="message"
       name="message"
       onChange={[Function]}

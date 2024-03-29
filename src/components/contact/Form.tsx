@@ -56,6 +56,7 @@ export default function Form() {
           type="text"
           name="email"
           role="input"
+          data-testid="emailInput"
           placeholder="Your email"
           onChange={(e) => setEmail(e.target.value)}
           className="text-lg p-[0.3rem] outline-zinc-500 border-2 border-zinc-300 rounded-sm dark:text-zinc-700"
@@ -68,6 +69,7 @@ export default function Form() {
           name="message"
           id="message"
           role="input"
+          data-testid="messageInput"
           onChange={(e) => {
             setMessage(e.target.value);
           }}
