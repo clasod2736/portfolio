@@ -27,6 +27,7 @@ export default function Links() {
             <a
               className="flex flex-row text-base font-light hover:underline italic"
               href={item.link}
+              data-testid="link"
             >
               {item.title}
             </a>

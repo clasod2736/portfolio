@@ -1,0 +1,12 @@
+{
+  "presets": ["@babel/preset-react", "@babel/preset-env"],
+  "plugins": [
+    [
+      "@babel/plugin-transform-modules-commonjs",
+      {
+        "allowTopLevelThis": true
+      }
+    ],
+    ["babel-plugin-css-modules-transform", {}]
+  ]
+}
