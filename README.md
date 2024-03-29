@@ -25,12 +25,12 @@ Go to <a href="https://joondev.me">htps://joondev.me</a>
 
 #### Intro
 
-<img src="(https://github.com/clasod2736/portfolio/assets/109887795/26de578a-17f1-4f3f-919d-333c955677a5)" width="700" height="600">
+<img src="https://github.com/clasod2736/portfolio/assets/109887795/26de578a-17f1-4f3f-919d-333c955677a5" width="700" height="600">
 
 #### About
 
-<img src="(https://github.com/clasod2736/portfolio/assets/109887795/652b2068-1a10-4366-bf6d-921ca935597f)" width="700" height="600">
+<img src="https://github.com/clasod2736/portfolio/assets/109887795/652b2068-1a10-4366-bf6d-921ca935597f" width="700" height="600">
 
 #### Projects
 
-<img src="(https://github.com/clasod2736/portfolio/assets/109887795/626afe70-2267-4f4a-9105-697ac47dc9a6)" width="700" height="600">
+<img src="https://github.com/clasod2736/portfolio/assets/109887795/626afe70-2267-4f4a-9105-697ac47dc9a6" width="700" height="600">
