@@ -13,7 +13,7 @@ export default function Intro() {
             className="hover:dark:text-zinc-50 hover:text-zinc-400 "
           >
             <b className="font-semibold">
-              React.js, Typescript, Next.js, Node.js, Jest, AWS.
+              React.js, Typescript, Next.js, Node.js, Jest and AWS.
             </b>
           </a>
         </li>
