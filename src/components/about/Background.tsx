@@ -5,8 +5,8 @@ export default function Background() {
         Background
       </h4>
       <p className="md:pt-0 min-[320px]:pt-2 px-0 md:px-4 lg:px-8 min-[500px]:text-lg lg:text-xl leading-8 w-full md:w-[80%] flex-wrap animate-[slideUp_0.3s]">
-        Hi! I'm <b>Joon</b>, based in Melbourne and have been self-studying Web
-        Development since early 2023. <br /> <br />
+        Hi! I'm <b>Joon</b>, based in Melbourne and have been self-studying
+        Software Engineering since early 2023. <br /> <br />
         As a web developer, I enjoy — combining my technical knowledge with my
         keen eye for details to create a solid functioning Website. <br />
         My goal is to always build applications that are <b>
@@ -15,6 +15,12 @@ export default function Background() {
         pixel-perfect user experiences. <br />
         Currently, my focus lives on <b>Front-End</b>, which I find incredibly
         fulfilling. <br /> <br />
+        To achieve my goal, I always approach coding with <b>
+          strategies
+        </b>, <b>creativity</b>
+        {""} and <b>empathy</b>.
+        <br />
+        <br />
         <b>When I'm not in front of the computer screen</b>, I'm probably
         jogging, fishing, playing music or crossing off another item on my
         bucket list.

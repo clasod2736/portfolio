@@ -75,7 +75,7 @@
   align-items: center;
 
   width: 80%;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
 
   @media (min-width: 1280px) {
     padding-inline: 1rem;
@@ -157,12 +157,5 @@
 
   &:hover {
     transform: scale(1.1);
-  }
-
-  @media (min-width: 768px) {
-    font-size: 2.5rem;
-  }
-  @media (max-width: 500px) {
-    font-size: 2rem;
   }
 }
