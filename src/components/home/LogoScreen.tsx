@@ -11,7 +11,7 @@ export default function LogoScreen({ width }: Logo) {
           <Trail open={true}>
             <h1 className="text-[4rem]">G'day! I'm</h1>
             <h1 className="text-[4rem] text-zinc-500 italic">Joon Park</h1>
-            <h2 className="text-[3.5rem]">Frone-End</h2>
+            <h2 className="text-[3.5rem]">Front-End</h2>
             <h2 className="text-[3.5rem]">Developer</h2>
             <h3 className="text-[3.5rem]">Melbourne</h3>
             <h3 className="text-[3.5rem]">Australia</h3>
@@ -24,7 +24,7 @@ export default function LogoScreen({ width }: Logo) {
           <Trail open={true}>
             <h1 className="text-[5rem]">G'day! I'm</h1>
             <h1 className="text-[5rem] text-zinc-500 italic">Joon Park</h1>
-            <h2 className="text-[4.5rem]">Frone-End</h2>
+            <h2 className="text-[4.5rem]">Front-End</h2>
             <h2 className="text-[4.5rem]">Developer</h2>
             <h3 className="text-[4.5rem]">Melbourne</h3>
             <h3 className="text-[4.5rem]">Australia</h3>
