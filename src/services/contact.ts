@@ -10,7 +10,7 @@ export const handleEmail = ({ e, name, email, message, setWarn }: Email) => {
   } else if (!email.includes("@")) {
     setWarn("email");
     return;
-  } else if (message.length < 1) {
+  } else if (!message.length) {
     setWarn("message");
     return;
   } else {
