@@ -16,7 +16,7 @@ export default function Background() {
         Currently, my focus lives on <b>Front-End</b>, which I find incredibly
         fulfilling. <br /> <br />
         To achieve my goal, I always approach coding with <b>
-          strategies
+          my strategies
         </b>, <b>creativity</b>
         {""} and <b>empathy</b>.
         <br />
