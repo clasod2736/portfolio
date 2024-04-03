@@ -44,6 +44,6 @@ export const projectsArr = [
     concept: "Implementing lazy loading, unit tests and type stability.",
     skills: ["react", "tailwind", "postcss", "typescript", "vite", "jest"],
     description:
-      "SPA web portfolio, focused on sleek and smooth UI and implemented react lazy loading, unit tests with Jest and react-test-library and type stability with typescript. ",
+      "SPA web portfolio. Focused on sleek and smooth UI, unit tests with Jest and react-test-library and type stability with typescript. ",
   },
 ];

@@ -18,7 +18,7 @@ export default function Intro() {
           </a>
         </li>
         <li className="text-xl  md:text-xl lg:text-2xl animate-slideUp animation-delay-600 my-2">
-          Please, explore more about me with About, Experience, Projects,
+          Please, explore more about me with About, Experience, Projects and
           Contact sections.
         </li>
       </ul>
