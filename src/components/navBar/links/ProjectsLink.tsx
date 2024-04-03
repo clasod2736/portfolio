@@ -23,7 +23,7 @@ export default function ProjectsLink() {
         </h6>
       </span>
       <div className="hidden md:flex">
-        <p className="text-xs lg:text-base">Breif details.</p>
+        <p className="text-xs lg:text-base">Brief details.</p>
         <p className="text-sm lg:text-base">Links for github repository.</p>
         <p className="text-sm lg:text-base">Links for live demo.</p>
       </div>
