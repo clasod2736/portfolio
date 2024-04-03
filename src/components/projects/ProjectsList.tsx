@@ -57,7 +57,7 @@ export default function ProjectsList() {
               <div>
                 <a
                   href={item.github}
-                  className=" text-3xl lg:text-xl opacity-30 hover:opacity-80"
+                  className=" text-3xl lg:text-xl opacity-30 hover:opacity-80 dark:opacity-50 dark:hover:opacity-20 "
                 >
                   <Github />
                 </a>
