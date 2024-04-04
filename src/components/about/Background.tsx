@@ -18,7 +18,7 @@ export default function Background() {
         To achieve my goal, I always approach coding with{" "}
         <b>multiple strategies,</b>
         {""} <b>keen eyes for detail</b>
-        {""}and <b>creativity</b>
+        {""} and <b>creativity</b>
         <br />
         <br />
         <b>When I'm not in front of the computer screen</b>, I'm probably
