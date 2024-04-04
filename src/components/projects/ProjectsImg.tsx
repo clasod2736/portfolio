@@ -12,6 +12,8 @@ export default function ProjectsImg() {
   const [imgSrc, setImgSrc] = useState("");
   const [fadeIn, setFadeIn] = useState(false);
 
+  console.log(fadeIn);
+
   useEffect(() => {
     setFadeIn(false);
 

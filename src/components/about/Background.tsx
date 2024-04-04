@@ -8,17 +8,19 @@ export default function Background() {
         Hi! I'm <b>Joon</b>, based in Melbourne and have been self-studying
         Software Engineering since early 2023. <br /> <br />
         As a web developer, I enjoy — combining my technical knowledge with my
-        keen eye for details to create a solid functioning Website. <br />
+        keen eye for details to create a solid functioning website. <br />
         My goal is to always build applications that are <b>
           scalable
         </b> and <b>efficient</b> under the hood while providing engaging,
         pixel-perfect user experiences. <br />
         Currently, my focus lives on <b>Front-End</b>, which I find incredibly
         fulfilling. <br /> <br />
-        To achieve my goal, I always approach coding with <b>
-          my strategies
-        </b>, <b>creativity</b>
-        {""} and <b>empathy</b>.
+        To achieve my goal, I always approach coding with{" "}
+        <b>
+          multiple strategies,
+          {""} <b>keen eyes for detail</b>.
+        </b>
+        and <b>creativity</b>
         <br />
         <br />
         <b>When I'm not in front of the computer screen</b>, I'm probably
