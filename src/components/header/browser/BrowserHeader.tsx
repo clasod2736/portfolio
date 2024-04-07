@@ -54,7 +54,7 @@ export default function BrowserHeader() {
           <Blog />
         </a>
         <a
-          href="https://drive.google.com/file/d/16o_l2dknWnReoFi7pE22ChabaZ6hiYvx/view?usp=sharing"
+          href="https://drive.google.com/file/d/10oMtJXuCKYo3Y25PZBILjVC5aaf6-ELS/view?usp=sharing"
           className={`text-xl ml-4 border-2 hover:dark:bg-neutral-700/30 dark:border-neutral-700 border-gray-300 hover:bg-gray-100 hover:border-gray-400 transition py-2 px-4 rounded-md
         ${anime ? "animate-slideUp" : ""} animation-delay-200`}
         >
