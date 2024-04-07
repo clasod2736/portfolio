@@ -7,8 +7,8 @@ export const contactLinks = [
   },
   {
     id: "Linkedin",
-    title: "https://www.linkedin.com/in/joon-park-dev",
-    link: "https://www.linkedin.com/in/joon-park-dev",
+    title: "https://www.linkedin.com/in/joondev",
+    link: "https://www.linkedin.com/in/joondev",
   },
   {
     id: "Github",

@@ -36,7 +36,7 @@ export default function BrowserHeader() {
           <Github />
         </a>
         <a
-          href="https://www.linkedin.com/in/joon-park-dev"
+          href="https://www.linkedin.com/in/joondev"
           className={` dark:hover:text-zinc-200 hover:text-zinc-500
           ${
             anime ? "animate-slideUp" : ""

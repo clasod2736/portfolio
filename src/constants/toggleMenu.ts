@@ -13,7 +13,7 @@ export const iconsinToggle = [
   {
     content: LinkedIn,
     id: "linkedin",
-    link: "https://www.linkedin.com/in/joon-park-dev",
+    link: "https://www.linkedin.com/in/joondev",
   },
   { content: Blog, id: "blog", link: "https://joondev.blog" },
 ];
