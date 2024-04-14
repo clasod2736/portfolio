@@ -43,6 +43,7 @@ export default function Skills() {
           <skill.icon
             key={skill.name}
             className={styles.icons}
+            onClick={() => setSkills(true)}
           />
         ))}
       </div>
@@ -50,6 +51,7 @@ export default function Skills() {
         className={`${styles.letters} ${
           skills ? "grid" : "hidden"
         } animate-[slideUp_0.3s] text-base xl:text-lg`}
+        onClick={() => setSkills(false)}
       >
         {memoizedSkillsArr.map((skill) => {
           return <span key={skill.name}>{skill.title}</span>;
