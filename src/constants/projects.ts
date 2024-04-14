@@ -2,7 +2,7 @@ export const projectsArr = [
   {
     id: "fhb",
     title: "For Homey Barista",
-    link: "https://main--voluble-kashata-776f36.netlify.app/",
+    link: "https://voluble-kashata-776f36.netlify.app/",
     github: "https://github.com/clasod2736/FHB-front",
     image: "/images/fhb.png",
     tag: "'Conceptual' coffee brewing web-app.",
