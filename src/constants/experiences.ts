@@ -1,16 +1,17 @@
 export const exArray = [
   {
-    id: "webDeveloper",
-    title: "Web Developer",
-    period: "Mar 2023 - Present",
-    place: "Melbourne,  Australia ",
+    id: "frontEndEngineer",
+    title: "Front End Engineer",
+    period: "June 2024 - Present",
+    place: "Skedyule",
     description: [
       {
-        "0": "Immersed myself in the world of web development. Learning HTML, CSS, and Javascript, React and SPA development. Along the way, I've been exploring full-stack architecture, utilizing RestfulAPI and Axios request with Node.js, Express, and MongoDB.",
-        "1": "Explored myself in advanced CSS techniques, exploring a wide range of frameworks and libraries to elevate my coding proficiency: CSS preprocessors, Bootstrap, PostCSS, Tailwind.css.",
-        "2": "Thriving to grasp concepts like SSR, CSR, ISR, SSG, and SEO using Next.js, along with exploring serverless deployment and CDN networking through AWS.",
-        "3": "Successfully deployed 3 side projects, which are Full-stack 'conceptual' coffee web-app built w/ M.E.R.N stack, my own tech blog built w/ Next.js and AWS and portfolio web-application built w/ React and deployed on Netlify.",
-        "4": "Actively seeking opportunities and connections by participating in local tech events and conferences like DDD Melbourne, GDG Melbourne, melbJs and more.",
+        "0": "Currently working on the front-end development for an AI-driven business management platform, building scalable UI using Next.js, Redux, Tailwind.css, and TypeScript.",
+        "1": "Designed the Restful APIs with Node.js, Prisma, and PostgreSQL Database.",
+        "2": "Developed modular and stateless components with Storybook.",
+        "3": "Implemented unit and end-to-end testing using Jest and Playwright.",
+        "4": "Set up CI/CD pipelines with GitHub Actions.",
+        "5": "Adapted Agile methodologies with the team, participating in daily and nightly sprints for progress tracking.",
       },
     ],
   },
