@@ -3,7 +3,7 @@ export const exArray = [
     id: "frontEndEngineer",
     title: "Front End Engineer",
     period: "June 2024 - Present",
-    place: "Skedyule",
+    place: "Skedyul",
     description: [
       {
         "0": "Currently working on the front-end development for an AI-driven business management platform, building scalable UI using Next.js, Redux, Tailwind.css, and TypeScript.",

@@ -8,7 +8,7 @@ export const ExperienceContext = createContext<ExperienceValue>({
 });
 
 export function ExperienceProvider({ children }: Children) {
-  const [experience, setExperience] = useState("webDeveloper");
+  const [experience, setExperience] = useState("frontEndEngineer");
 
   const handleExperience = (data: string) => setExperience(data);
 
